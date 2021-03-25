@@ -20,9 +20,9 @@ exports.EXTENSION_MIMES = {
   bmp: 'image/bmp'
 }
 exports.FILTER_BOUNDS = {
-  brightness: [0, Infinity, 1],
-  contrast: [0, Infinity, 1],
-  saturate: [0, Infinity, 1],
+  brightness: [0, Infinity, 100],
+  contrast: [0, Infinity, 100],
+  saturate: [0, Infinity, 100],
   hueRotate: [-Infinity, Infinity, 0],
   blur: [0, Infinity, 0],
   sepia: [0, 100, 0],
