@@ -20,7 +20,6 @@ function validateFilters(filters) {
       continue
     }
     var newValue = Number(value)
-    if (filter === 'hueRotate') newValue = newValue % 360
     if (newValue === bounds[2]) { // Default value
       continue
     }

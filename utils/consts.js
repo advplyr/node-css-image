@@ -1,10 +1,12 @@
 exports.FILTER_DATA = {
-  brightness: ['brightness', ''],
-  contrast: ['contrast', ''],
-  saturate: ['saturate', ''],
-  hueRotate: ['hue-rotate', 'deg'],
+  brightness: ['brightness', '%'],
+  contrast: ['contrast', '%'],
+  saturate: ['saturate', '%'],
+  hueRotate: ['hue-rotate', 'turn'],
   blur: ['blur', 'px'],
-  sepia: ['sepia', '']
+  sepia: ['sepia', '%'],
+  grayscale: ['grayscale', '%'],
+  invert: ['invert', '']
 }
 exports.EXTENSION_MIMES = {
   jpg: 'image/jpeg',
@@ -23,5 +25,7 @@ exports.FILTER_BOUNDS = {
   saturate: [0, Infinity, 1],
   hueRotate: [-Infinity, Infinity, 0],
   blur: [0, Infinity, 0],
-  sepia: [0, 1, 0]
+  sepia: [0, 100, 0],
+  grayscale: [0, 100, 0],
+  invert: [0, 1, 0]
 }

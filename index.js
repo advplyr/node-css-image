@@ -13,7 +13,7 @@ async function save(payload) {
   const height = payload.height
   const width = payload.width
   const filters = validator.filters(payload.filters)
-  const output = payload.output || 'output.png'
+  const output = payload.output
 
   const imgStyle = validator.buildStyle(filters)
 

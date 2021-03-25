@@ -1,7 +1,7 @@
 {
   "name": "node-css-image",
   "author": "mcoop320",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Apply css filters to an image in nodejs and save.",
   "main": "index.js",
   "scripts": {
