@@ -10,5 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "puppeteer": "^8.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcoop320/node-css-image.git"
+  },
+  "homepage": "https://github.com/mcoop320/node-css-image"
 }

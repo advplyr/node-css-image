@@ -1,6 +1,6 @@
 # Node CSS Image
 
-Apply css filters to an image.
+Apply css filters to an image in nodejs and save.
 
 **Puppeteer v8**
 
