@@ -1,6 +1,6 @@
 {
   "name": "node-css-image",
-  "author": "mcoop320",
+  "author": "advplyr",
   "version": "0.0.3",
   "description": "Apply css filters to an image in nodejs and save.",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcoop320/node-css-image.git"
+    "url": "https://github.com/advplyr/node-css-image.git"
   },
-  "homepage": "https://github.com/mcoop320/node-css-image"
+  "homepage": "https://github.com/advplyr/node-css-image"
 }
